@@ -169,8 +169,6 @@ def select_image():
 
             root1.mainloop()
         canvas.bind("<Button 1>", printcoords)
-        # Button(root, text='Quit', command=root.quit).grid(row=3, column=0, sticky=W, pady=4)
-        # Button(root, text='Show', command=show_entry_fields).grid(row=3, column=1, sticky=W, pady=4)
 
         frame.pack()
         root.mainloop()
